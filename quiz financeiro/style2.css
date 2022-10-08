@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+.finances {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.financesDescription {
+    text-align: center;
+}
+
+.financesDescription h1 {
+    color: #3a9835;
+    margin-top: 90px;
+    padding: 70px;
+}
+
+.financesChoice {
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 500px;
+    gap: 50px;
+
+}
+
+.financesChoice p {
+    margin-bottom: 10px;
+}
+
+
+.choice-1,
+.choice-2,
+.choice-3,
+.choice-4 {
+    text-align: center;
+    width: 300px;
+    margin: 8px;
+    transition: background-color 0.4s;
+
+}
+
+.choice-1:hover,
+.choice-2:hover,
+.choice-3:hover,
+.choice-4:hover {
+    border: 2px solid #3a98359a;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+.choiceIcon {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px 20px 0px;
+}
