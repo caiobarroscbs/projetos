@@ -44,6 +44,9 @@
     width: 300px;
     margin: 8px;
     transition: background-color 0.4s;
+    border: solid 2px white;
+    border-radius: 12px;
+    transition: all 0.5s ease-out;
 
 }
 
@@ -54,6 +57,7 @@
     border: 2px solid #3a98359a;
     border-radius: 12px;
     cursor: pointer;
+    transition: all 0.2s ease-out;
 }
 
 
